@@ -2,19 +2,24 @@ function alertCabello() {
     Swal.fire({
         title: 'Cortes de Cabello',
         html:
-        '<table class= "tablaPopUp">'+ 
-        '<thead>' + 
-        '<tr> <th> <h3><b>Cortes de Cabello para Niños:</b></h3> </th> <th><h3><b>Cortes de Cabello para Hombres Adultos:</b></h3></th> </tr>' + 
-        '</thead>' + 
-        '<tbody>' + 
-        '<tr> <td><b>★ Corte Clásico</b></td> <td><b>★ Corte de Pelo Clásico</b></td> </tr>' + 
-        '<tr> <td><b>★ Corte de Pelo Corto</b></td> <td><b>★ Corte a la Moda</b></td> </tr>' + 
-        '<tr> <td><b>★ Corte de Pelo Largo</b></td> <td><b>★ Corte Militar</b></td> </tr>' + 
-        '<tr> <td><b>★ Fade o Degradado</b></td> <td><b>★ Corte de Pelo Largo</b></td> </tr>' + 
-        '</tbody>' +
-        '</table>',
+        '<div class= "PopUpCabello">'+
+            '<div class= "PopUpNiños">'+
+                '<h3>Cortes de Cabello para Niños:</h3>'+
+                '<p>★ Corte Clásico</p>'+
+                '<p>★ Corte de Pelo Corto</p>'+
+                '<p>★ Corte de Pelo Largo</p>'+
+                '<p>★ Fade o Degradado</p>'+
+            '</div>' +
+            '<div class= "PopUpAdultos">'+
+                '<h3>Cortes de Cabello para Hombres Adultos:</h3>'+
+                '<p>★ Corte de Pelo Clásico</p>'+
+                '<p>★ Corte a la Moda</p>'+
+                '<p>★ Corte Militar</p>'+
+                '<p>★ Corte de Pelo Largo</p>'+
+            '</div>' +
+        '</div>',
         footer: 'Recuerda que la elección del corte de cabello depende en gran medida de las preferencias personales, la textura del cabello y el estilo de vida. Un buen estilista puede proporcionar asesoramiento adicional y personalizar el corte según las necesidades individuales',
-        width:'60%',
+        width:'80%',
         background: 'linear-gradient(#E5E7E9 , #CACFD2, #909497)',
         allowOutsideClick: true,
         allowEscapeKey: true,

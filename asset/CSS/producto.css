@@ -45,27 +45,25 @@
     font-weight: bold;
     margin-top:10px;
 }
-.titlePopUp {
+.PopUpCabello {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+.PopUpNiños, .PopUpAdultos{
+    margin: 1% 3%;
+}
+.PopUpNiños h3, .PopUpAdultos h3{
+    margin: 5% 0;
     color: #000000;
-    font-weight: bold;
-    font-style: italic;
 }
-.tablaPopUp {
-    width: 80%;
+.PopUpNiños p, .PopUpAdultos p{
+    margin: 1% 0;
     color: #000000;
-    margin: 2% 10%;   
+    text-align: start;
 }
-.tablaPopUp th {
-    width: 50%;
-    text-align: center;
-    padding-bottom: 4%;
-}
-.tablaPopUp td {
-    width: 50%;
-    text-align: left;
-    padding-bottom: 2%;
-    padding-left: 2%;
-}
+
 .tablaCyB{
     width: 100%;
     color: #000000;
