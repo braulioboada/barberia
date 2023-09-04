@@ -1,0 +1,151 @@
+main {
+    display: flex;
+    margin: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formulario {
+    border: black solid;
+}
+
+.cliente, .servicio, .contacto{
+    margin-bottom: 3%;
+    margin-left: 5%;
+}
+.datos {
+    display: inline-block;
+    margin-right: 7%;
+    vertical-align: top;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 4%;
+    cursor: pointer;
+    padding: 2% 5%;
+    height: 2.5%;
+    outline: 0; 
+    border: 0;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    font-size: 1em;
+    color: #999;
+    font-family: 'Quicksand', sans-serif;
+    border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 4% 1%;
+}
+
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.content-select select::-ms-expand {
+    display: none;
+}
+.content-select{
+	max-width: 40%;
+	position: relative;
+}
+.content-select select{
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+  	padding: 2% 5%;
+  	height: 5%;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #7b7b7b;
+	font-size: 1em;
+	color: #999;
+	font-family: 'Quicksand', sans-serif;
+	border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+ 
+.content-select select:hover{
+	background: #B1E8CD;
+}
+ 
+/* 
+Creamos la fecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+/*.content-select i{
+	position: absolute;
+	right: 5%;
+	top: calc(50% - 40%);
+	display: block;
+	transform: rotate(-180deg); /* Giramos el cuadrado */
+	/*transition: all 0.25s ease;
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+    cursor: pointer;
+}*/
+.checkbox{
+    margin: 5% 0;
+}
+/*
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40%;
+    
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+@media screen and (max-width:480px){
+    form{
+        padding-left: 2%;
+        margin: 0 20% 10px 0;
+    }
+    .input-padron{
+        width: 100%;
+        margin: 0 30% 20px 0;
+    }
+    table{
+        margin: 40px auto;
+        
+    }
+}*/

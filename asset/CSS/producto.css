@@ -1,0 +1,84 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    list-style: none;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 300px;
+    margin: 2% 1.5%;
+}
+.productos li:hover{
+    border-color: #2E86C1 ;
+    text-shadow: 2px 2px 8px #5DADE2 ,-2px 2px 8px #5DADE2 ,2px -2px 8px #5DADE2 ,-2px -2px 8px #5DADE2 ;
+}
+
+.productos li:active{
+    border-color:#6C3483;
+    text-shadow: 2px 2px 8px #D2B4DE ,-2px 2px 8px #D2B4DE ,2px -2px 8px #D2B4DE ,-2px -2px 8px #D2B4DE ;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 31px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+.titlePopUp {
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+}
+.tablaPopUp {
+    width: 80%;
+    color: #000000;
+    margin: 2% 10%;   
+}
+.tablaPopUp th {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.tablaPopUp td {
+    width: 50%;
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.tablaCyB{
+    width: 100%;
+    color: #000000;
+    margin: 2% 0;
+}
+.tablaCyB td {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 2%;
+    padding-left: 4%;
+}
+.footerPopUp {
+    color: #000000;
+    font-weight: bold;
+}
+

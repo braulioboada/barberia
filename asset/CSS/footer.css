@@ -1,0 +1,40 @@
+footer{
+    background: url(../img/Footer.jpg);
+}
+
+.box-footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1%;
+}
+
+.copyright{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    margin-left: 8%;
+}
+
+.copyright p {
+    margin-top: 1%;
+}
+.text ul {
+    list-style: none;
+    margin-top: 3%;
+}
+
+.text li {
+    display: inline;
+    align-items: center;
+    margin: 1%;
+}
+
+
+@media screen and (max-width:480px){
+    .copyright {
+        margin-left: 0;
+    }
+}

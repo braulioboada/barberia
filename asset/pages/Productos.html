@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="es">    
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Barbería Alura</title>
+        <link rel="stylesheet" href="../CSS/producto.css">
+        <link rel="stylesheet" href="../CSS/Header.css">
+        <link rel="stylesheet" href="../CSS/footer.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script src="../JS/producto.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="../img/logo Header.png"/></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <ul class="productos">
+                <li onclick = "alertCabello()" >
+                    <h2>Cabello</h2>
+                    <img src="../img/cabello.png">
+                    <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class="producto-precio">$ 10.00</p>
+                </li>
+                <li onclick = "alertBarba()">
+                    <h2>Barba</h2>
+                    <img src="../img/barba.png">
+                    <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto-precio">$ 08.00</p>
+                </li >
+                <li onclick = "alertCabelloBarba()">
+                    <h2>Cabello + Barba</h2>
+                    <img src="../img/cabello+barba.png">
+                    <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                    <p class="producto-precio">$ 15.00</p>
+                </li>
+            </ul>
+        </main>
+
+        <footer class="box-footer">
+
+            <img src="../img/logo footer.png"  alt="Logo de la Barbería Alura">
+
+                            <div class="copyright">
+                    <div class="text">
+                        <p >&copy Copyright Barbería Alura - 2020</p>
+                        <p>Create by Braulio Boada</p>
+                        <ul>
+                            <li class="link"><a href="https://www.linkedin.com/in/braulio-boada/" target="_blank"><img src="../img/linkedin.svg" class="linkedin"></a></li>
+                            <li class="link"><a href="https://github.com/braulioboada/" target="_blank"><img src="../img/github.svg" class="github"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+        </footer>
+    </body>
+</html>

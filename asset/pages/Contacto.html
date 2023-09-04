@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="es">    
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Barbería Alura</title>
+        <link rel="stylesheet" href="../CSS/contacto.css">
+        <link rel="stylesheet" href="../CSS/Header.css">
+        <link rel="stylesheet" href="../CSS/footer.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="../img/logo Header.png"/></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+
+            <section class="formulario">
+                <form>
+                    <div class="cliente">
+                        <div>
+                            <div class="datos">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" class="input-padron" required placeholder="XXXXXXXX">
+                            </div>
+                            <div class="datos">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" id="apellido" class="input-padron" required placeholder="XXXXXXXX">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="datos">
+                                <label for="correoelectronico">Correo Electrónico</label>
+                                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                            </div>
+                            <div class="datos">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="servicio">
+
+                        <div class="">
+                            <label for="cantidad">Participantes</label>
+                            <input type="number" id="cantidad" class="input-padron" min="1" max="9" step="1" value="1">
+                        </div>
+
+                        <div class="content-select">
+                            <label for="servició">Tipo de Servicio</label>   
+                            <select id="servició">
+                                <option>Seleccione</option>
+                                <option>Corte de Cabello</option>
+                                <option>Corte de Barba</option>
+                                <option>Cabello + Barba</option>
+                            </select>
+                        </div>
+
+                        <div class="content-select">  
+                            <select>
+                                <option>Seleccione</option>
+                                <option>Mañana</option>
+                                <option>Tarde</option>
+                                <option>Noche</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto">
+                        <legend>¿Cómo le gustaría que lo contactemos?</legend>
+    
+                        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email" class="metodocontacto">Email</label>
+                        
+                        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono" class="metodocontacto">Teléfono</label>
+                        
+                        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" class="metodocontacto" checked>WhatsApp</label>
+                        
+                        <legend>¿En cuál horario prefiere ser atendido?</legend>
+                        
+                        <div class="content-select">  
+                            <select>
+                                <option>Seleccione</option>
+                                <option>Mañana</option>
+                                <option>Tarde</option>
+                                <option>Noche</option>
+                            </select>
+                            <!-- <i><img src="../img/arrow-up.svg" alt=""></i> -->
+                        </div>
+
+                        <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>  
+                    </div>
+
+                    
+              
+                    
+                    <input type="submit" value="Enviar formulario" class="enviar">
+    
+                </form>
+            </section>
+
+            <section class="informacion">
+                <div class="horarios">
+                    <img src="../img/Contacto.svg" alt="barbero">
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Día</th>
+                                <th>Horario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes</td>
+                                <td>08h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Miércoles</td>
+                                <td>08h ~ 20h</td>
+                            </tr>
+                            <tr>
+                                <td>Viernes</td>
+                                <td>08h ~ 20h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+           
+
+
+        </main>
+        <footer class="box-footer">
+            
+            <img src="../img/logo footer.png"  alt="Logo de la Barbería Alura">
+
+                            <div class="copyright">
+                    <div class="text">
+                        <p >&copy Copyright Barbería Alura - 2020</p>
+                        <p>Create by Braulio Boada</p>
+                        <ul>
+                            <li class="link"><a href="https://www.linkedin.com/in/braulio-boada/" target="_blank"><img src="../img/linkedin.svg" class="linkedin"></a></li>
+                            <li class="link"><a href="https://github.com/braulioboada/" target="_blank"><img src="../img/github.svg" class="github"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+        </footer>
+    </body>
+</html>

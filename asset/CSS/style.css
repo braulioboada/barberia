@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.principal{
+    padding: 3em 0;
+    margin: 0 5%; 
+}
+.principal h2{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 2em ;
+}
+.text-principal {
+    text-align: justify;
+}
+.principal p{
+    margin: 0 1em 1em 1em;
+    font-size: 1.5em;
+}
+.mision{
+    font-style: italic;
+}
+.Silla{
+    width: 12%;
+    float:left;
+    margin: 0 1% 1% 2%;
+}
+.Silla2 {
+    display: none;
+}
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em;
+    font-size: 1.5em;
+}
+.contenido-diferenciales{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    margin:0 0 4% ;
+    padding: 0 5%;
+}
+.diferenciales{
+    text-align: start;
+    display: inline-block;
+    justify-content: center;
+    list-style: none;
+    vertical-align: top;
+    margin: 4% 0;
+
+}
+.diferenciales li{
+    line-height: 2;
+    font-size: 1em;
+    margin: 3% 0;
+}
+.diferenciales li:before{
+    content:"★"
+}
+
+.diferenciales li:first-child{
+    font-weight: bold;
+}
+.mapa-contenido{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.botones{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.452);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #ffffff9c;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+.atras {
+    left: 2%;
+    top: calc(50% - 40px);
+}
+
+.adelante {
+    right: 2%;
+    top: calc(50% - 40px);
+}
+
+.video{
+    width: 40vw;
+    text-align: center;
+    margin: 1em auto;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(../img/arrow-up.svg);
+    background-size: cover;
+  }
+
+@media screen and (max-width:480px){
+    .Silla{
+        display: none;
+    }
+    .Silla2 {
+        display: flex;
+        width: 70%;
+        margin: 0 0 10% 15% ;   
+    }
+    .mision {
+        text-align: center;
+    }
+   .video {
+        width: 90vw;
+    }
+}
