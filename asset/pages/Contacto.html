@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../CSS/contacto.css">
         <link rel="stylesheet" href="../CSS/Header.css">
         <link rel="stylesheet" href="../CSS/footer.css">
+        <script src="../JS/contacto.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
 
@@ -55,9 +56,21 @@
 
                     <div class="servicio">
 
-                        <div class="">
-                            <label for="cantidad">Participantes</label>
-                            <input type="number" id="cantidad" class="input-padron" min="1" max="9" step="1" value="1">
+                        <div class="center">
+                            <div class="addNumber_cont">
+                                <button id="disableBtn" class="btnParticipantes" onclick="addValueFunction(this)" value="decrease">
+                                    <
+                                </button>
+
+                                <div class="value_cont">
+                                    <h1 id="amount" value="">0</h1>
+                                </div>
+
+                                <button id="mDisabeBtn" class="btnParticipantes" onclick="addValueFunction(this)" value="increase">
+                                    >
+                                </button>
+
+                            </div>
                         </div>
 
                         <div class="content-select">
@@ -98,7 +111,6 @@
                                 <option>Tarde</option>
                                 <option>Noche</option>
                             </select>
-                            <!-- <i><img src="../img/arrow-up.svg" alt=""></i> -->
                         </div>
 
                         <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>  

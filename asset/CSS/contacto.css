@@ -4,11 +4,9 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 .formulario {
     border: black solid;
 }
-
 .cliente, .servicio, .contacto{
     margin-bottom: 3%;
     margin-left: 5%;
@@ -36,13 +34,11 @@ main {
     border-radius: 12px;
     position: relative;
 }
-
 form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 4% 1%;
 }
-
 .content-select select{
 	appearance: none;
 	-webkit-appearance: none;
@@ -74,32 +70,71 @@ form label, form legend{
     position: relative;
     transition: all 0.25s ease;
 }
- 
 .content-select select:hover{
 	background: #B1E8CD;
 }
- 
-/* 
-Creamos la fecha que aparece a la izquierda del select.
-Realmente este elemento es un cuadrado que sólo tienen
-dos bordes con color y que giramos con transform: rotate(-45deg);
-*/
-/*.content-select i{
-	position: absolute;
-	right: 5%;
-	top: calc(50% - 40%);
-	display: block;
-	transform: rotate(-180deg); /* Giramos el cuadrado */
-	/*transition: all 0.25s ease;
-}
- 
-.content-select:hover i{
-	margin-top: 3px;
-    cursor: pointer;
-}*/
 .checkbox{
     margin: 5% 0;
 }
+
+.center{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addNumber_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnParticipantes {
+    width: 50px;
+    height: 70px;
+
+    border: none;
+    border-radius: 35px;
+
+    color: #5989ff;
+    background-color: #fff;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+    box-shadow: 0px 10px 10px #000030;
+}
+
+.btnParticipantes:hover {
+    background-color: #e7e7e7;
+}
+
+.value_cont {
+    width: 100px;
+    height: 100px;
+
+    margin: 10px;
+    border-radius: 35px;
+
+    color: #fff;
+    background-color: #8774ff;
+    box-shadow: 0px 10px 10px #000030;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value_cont h1 {
+    font-family: Segoe UI;
+    font-size: 50px;
+}
+
 /*
 .enviar{
     width: 40%;
